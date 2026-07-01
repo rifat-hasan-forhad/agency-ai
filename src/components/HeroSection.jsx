@@ -9,7 +9,7 @@ const HeroSection = () => {
         <p className="text-xs text-gray-800">Trusted by 10k+ people</p>
       </div>
 
-      <div className="px-4 relative ">
+      <div className="px-4">
         <h1 className="text-[2rem] font-semibold text-gray-700 text-center py-6 sm:text-7xl sm:px-15 ">
           Turning imagination into <br />
           <span className="bg-linear-to-r from-primary to-blue-400 text-transparent bg-clip-text">
@@ -24,8 +24,8 @@ const HeroSection = () => {
         </p>
       </div>
 
-      <div>
-        <div className="absolute top-50 -right-80 -z-5 sm:top-20 sm:-right-30 ">
+      <div className="relative">
+        <div className="absolute -top-40 -right-80 -z-5 sm:-top-85 sm:-right-40 ">
           <img className="w-2xl sm:w-5xl" src={assets.bgImage1} alt="blue-bg" />
         </div>
 
@@ -35,7 +35,7 @@ const HeroSection = () => {
           alt="hero-imag"
         />
 
-        <div className="absolute bottom-0 -left-30 -z-5 sm:-bottom-80 sm:-left-40">
+        <div className="absolute -bottom-55 -left-45 -z-5 sm:-bottom-100 sm:-left-50">
           <img className="w-2xl sm:w-5xl" src={assets.bgImage2} alt="" />
         </div>
       </div>
