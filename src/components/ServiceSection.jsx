@@ -25,7 +25,7 @@ const ServiceSection = () => {
   ];
 
   return (
-    <>
+    <div id="services">
       <Heading
         head="How can we help?"
         desc="From strategy to execution, we craft digital solutions that move your business forward."
@@ -52,7 +52,7 @@ const ServiceSection = () => {
           </>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

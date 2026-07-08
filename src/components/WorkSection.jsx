@@ -20,7 +20,7 @@ const WorkSection = () => {
   ];
 
   return (
-    <div>
+    <div id="our-work">
       <Heading
         head={"Our latest work"}
         desc={
@@ -31,7 +31,7 @@ const WorkSection = () => {
       <div className="sm:flex sm:w-8/10 sm:mx-auto">
         {works.map((work) => (
           <>
-            <div className="p-4 transition-transform duration-300 ease-in-out scale-95 hover:scale-100">
+            <div className="p-4 hover:scale-103 transition-all duration-400">
               <img src={work.src} alt="image" />
 
               <h2 className="text-gray-600 text-xl font-medium">
