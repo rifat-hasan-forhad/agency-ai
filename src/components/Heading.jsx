@@ -5,7 +5,7 @@ const Heading = ({ head, desc }) => {
         {head}
       </h1>
 
-      <p className="text-center text-gray-500 font-semibold px-2 pt-3 pb-15 sm:w-4/10 mx-auto ">
+      <p className="text-center text-gray-500 font-semibold px-2 pt-3 pb-15 sm:w-6/10 mx-auto ">
         {desc}
       </p>
     </div>

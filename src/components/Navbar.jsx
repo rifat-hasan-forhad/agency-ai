@@ -39,12 +39,9 @@ const Navbar = () => {
 
       <a
         href="#contact-us"
-        className=" hidden bg-primary sm:flex text-white text-xs font-bold items-center px-8 py-2 w-fit rounded-4xl gap-2 "
+        className=" hidden w-max sm:flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all "
       >
-        Contact
-        <span>
-          <VscArrowRight />
-        </span>
+        Contact <img className="w-4" src={assets.arrow_icon} alt="" />
       </a>
 
       <a

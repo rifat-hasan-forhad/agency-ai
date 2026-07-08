@@ -1,4 +1,6 @@
 import "./App.css";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import ServiceSection from "./components/ServiceSection";
@@ -13,6 +15,8 @@ function App() {
       <ServiceSection />
       <WorkSection />
       <TeamMate />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
